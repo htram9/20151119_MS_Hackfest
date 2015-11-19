@@ -68,6 +68,17 @@
 						]
 					  }
 					},
+					{
+						"name": "TagCount",
+						"type": "Microsoft.Common.TextBox",
+						"label": "Tag Limit",
+						"defaultValue": "10000",
+						"constraints": {
+							"required": true,
+							"regex": "^[0-9]{1,6}$",
+							"validationMessage": "Only numeric characters are allowed, and the value must be 1-6 characters long."
+						}
+					},
                     {
                         "name": "storageAccount",
                         "type": "Microsoft.Storage.StorageAccountSelector",
