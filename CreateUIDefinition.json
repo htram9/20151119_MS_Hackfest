@@ -23,8 +23,9 @@
                 "osPlatform": "Windows"
             },
 			{
-				"name": "Some OSI Indicator",
+				"name": "MyIndicator",
 				"type": "Microsoft.Common.TextBox",
+				"label": "Some OSI Indicator",
 				"defaultValue": "Hoa's Box"
 			}            
         ],
